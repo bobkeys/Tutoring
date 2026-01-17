@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Tutoring | Academic Excellence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; }
+        .fade-in { opacity: 0; transform: translateY(20px); transition: all 0.6s ease-out; }
+        .fade-in.visible { opacity: 1; transform: translateY(0); }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+
+    <nav class="sticky top-0 z-50 p-5 bg-white/80 backdrop-blur-lg border-b border-gray-100 flex justify-between items-center px-6 md:px-20">
+        <h1 class="text-xl font-bold tracking-tighter text-blue-600">ELITE<span class="text-gray-900">TUTORING</span></h1>
+        
+        <div class="hidden md:flex space-x-8 items-center text-sm font-medium">
+            <a href="#services" class="hover:text-blue-600 transition">Subjects</a>
+            <a href="#pricing" class="hover:text-blue-600 transition">Pricing</a>
+            <a href="#book" class="bg-blue-600 text-white px-5 py-2.5 rounded-full hover:bg-blue-700 transition shadow-md">Book a Session</a>
+        </div>
+    </nav>
+
+    <header class="py-24 px-6 text-center max-w-4xl mx-auto">
+        <span class="inline-block py-1 px-3 rounded-full bg-blue-50 text-blue-600 text-xs font-bold uppercase tracking-widest mb-4">Personalized Learning</span>
+        <h2 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight text-gray-900">Unlock your academic potential.</h2>
+        <p class="text-xl text-gray-500 mb-10 leading-relaxed">Expert 1-on-1 guidance across all major subjects. We don't just teach content; we build confidence and mastery.</p>
+        <div class="flex flex-col md:flex-row justify-center gap-4">
+            <a href="#book" class="bg-blue-600 text-white text-lg px-10 py-4 rounded-2xl shadow-xl hover:bg-blue-700 transition transform hover:-translate-y-1">Start Your First Lesson</a>
+            <a href="#services" class="bg-gray-50 text-gray-700 text-lg px-10 py-4 rounded-2xl hover:bg-gray-100 transition">Explore Subjects</a>
+        </div>
+    </header>
+
+    <section id="services" class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h3 class="text-3xl font-bold mb-4 text-gray-900">What We Teach</h3>
+            <div class="h-1.5 w-12 bg-blue-600 mx-auto rounded-full"></div>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="fade-in p-8 rounded-3xl bg-gray-50 border border-transparent hover:border-blue-100 transition">
+                <div class="text-3xl mb-4">📐</div>
+                <h4 class="text-lg font-bold mb-2">Mathematics</h4>
+                <p class="text-gray-500 text-sm">Algebra 1 & 2, Geometry, Pre-Calc, and AP Calculus.</p>
+            </div>
+            <div class="fade-in p-8 rounded-3xl bg-gray-50 border border-transparent hover:border-blue-100 transition">
+                <div class="text-3xl mb-4">🧪</div>
+                <h4 class="text-lg font-bold mb-2">Sciences</h4>
+                <p class="text-gray-500 text-sm">Physics, Chemistry, and Biology (including AP levels).</p>
+            </div>
+            <div class="fade-in p-8 rounded-3xl bg-gray-50 border border-transparent hover:border-blue-100 transition">
+                <div class="text-3xl mb-4">✍️</div>
+                <h4 class="text-lg font-bold mb-2">Humanities</h4>
+                <p class="text-gray-500 text-sm">English Literature, History, and College Essay prep.</p>
+            </div>
+            <div class="fade-in p-8 rounded-3xl bg-gray-50 border border-transparent hover:border-blue-100 transition">
+                <div class="text-3xl mb-4">💻</div>
+                <h4 class="text-lg font-bold mb-2">Computer Science</h4>
+                <p class="text-gray-500 text-sm">Python, Java, and AP Computer Science Principles.</p>
+            </div>
+            <div class="fade-in p-8 rounded-3xl bg-gray-50 border border-transparent hover:border-blue-100 transition">
+                <div class="text-3xl mb-4">🌍</div>
+                <h4 class="text-lg font-bold mb-2">Languages</h4>
+                <p class="text-gray-500 text-sm">Spanish, French, and ESL support for all ages.</p>
+            </div>
+            <div class="fade-in p-8 rounded-3xl bg-gray-50 border border-transparent hover:border-blue-100 transition">
+                <div class="text-3xl mb-4">🎓</div>
+                <h4 class="text-lg font-bold mb-2">Test Prep</h4>
+                <p class="text-gray-500 text-sm">SAT, ACT, GRE, and AP Exam-taking strategies.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="py-20 bg-gray-50 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl font-bold mb-4">Simple Pricing</h3>
+                <p class="text-gray-600">No hidden fees. Just quality education.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-10 rounded-3xl shadow-sm flex flex-col hover:shadow-md transition">
+                    <h4 class="font-bold text-gray-900 mb-1">Single Session</h4>
+                    <p class="text-gray-400 text-sm mb-6">On-demand help</p>
+                    <div class="text-4xl font-bold mb-8">$60<span class="text-lg text-gray-300 font-normal">/hr</span></div>
+                    <ul class="space-y-4 mb-10 text-sm text-gray-600 flex-grow">
+                        <li>• 1-on-1 focus</li>
+                        <li>• Digital summary</li>
+                        <li>• No commitment</li>
+                    </ul>
+                    <a href="#book" class="text-center py-3 rounded-xl border border-gray-200 font-bold hover:bg-gray-50 transition">Book Once</a>
+                </div>
+                <div class="bg-white p-10 rounded-3xl shadow-xl border-2 border-blue-600 flex flex-col relative md:-translate-y-4">
+                    <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-blue-600 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase">Most Popular</span>
+                    <h4 class="font-bold text-gray-900 mb-1">Growth Bundle</h4>
+                    <p class="text-gray-400 text-sm mb-6">Weekly consistency</p>
+                    <div class="text-4xl font-bold mb-8">$200<span class="text-lg text-gray-300 font-normal">/mo</span></div>
+                    <ul class="space-y-4 mb-10 text-sm text-gray-600 flex-grow">
+                        <li>• 4 Sessions / Month</li>
+                        <li>• Personalized study plan</li>
+                        <li>• Email support</li>
+                    </ul>
+                    <a href="#book" class="text-center py-4 rounded-xl bg-blue-600 text-white font-bold hover:bg-blue-700 transition">Get Started</a>
+                </div>
+                <div class="bg-white p-10 rounded-3xl shadow-sm flex flex-col hover:shadow-md transition">
+                    <h4 class="font-bold text-gray-900 mb-1">Mastery Plan</h4>
+                    <p class="text-gray-400 text-sm mb-6">Total academic immersion</p>
+                    <div class="text-4xl font-bold mb-8">$360<span class="text-lg text-gray-300 font-normal">/mo</span></div>
+                    <ul class="space-y-4 mb-10 text-sm text-gray-600 flex-grow">
+                        <li>• 8 Sessions / Month</li>
+                        <li>• Priority scheduling</li>
+                        <li>• Full Mock Exams</li>
+                    </ul>
+                    <a href="#book" class="text-center py-3 rounded-xl border border-gray-200 font-bold hover:bg-gray-50 transition">Choose Mastery</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="book" class="py-24 px-6">
+        <div class="max-w-xl mx-auto bg-white rounded-[2rem] border border-gray-100 shadow-2xl p-8 md:p-12">
+            <div class="text-center mb-10">
+                <h3 class="text-3xl font-bold mb-2">Book Your Session</h3>
+                <p class="text-gray-500">I'll get back to you within 24 hours.</p>
+            </div>
+            
+            <form action="https://formspree.io/f/xojjjlea" method="POST" class="space-y-5">
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Student Name</label>
+                    <input type="text" name="name" required class="w-full px-5 py-4 rounded-xl bg-gray-50 border-none focus:ring-2 focus:ring-blue-600 outline-none" placeholder="John Doe">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Email Address</label>
+                    <input type="email" name="email" required class="w-full px-5 py-4 rounded-xl bg-gray-50 border-none focus:ring-2 focus:ring-blue-600 outline-none" placeholder="john@example.com">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Subject</label>
+                    <select name="subject" class="w-full px-5 py-4 rounded-xl bg-gray-50 border-none focus:ring-2 focus:ring-blue-600 outline-none">
+                        <option>Mathematics</option>
+                        <option>Sciences</option>
+                        <option>Humanities</option>
+                        <option>Computer Science</option>
+                        <option>SAT/ACT Prep</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">Goals</label>
+                    <textarea name="message" rows="3" class="w-full px-5 py-4 rounded-xl bg-gray-50 border-none focus:ring-2 focus:ring-blue-600 outline-none" placeholder="What are you working on?"></textarea>
+                </div>
+                <input type="text" name="_gotcha" style="display:none" />
+                <button type="submit" class="w-full bg-blue-600 text-white font-bold py-5 rounded-xl hover:bg-blue-700 transition-all shadow-lg hover:shadow-blue-200">
+                    Send Booking Request
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center text-gray-400 text-sm border-t border-gray-50">
+        <p>&copy; 2026 EliteTutoring Academy. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
